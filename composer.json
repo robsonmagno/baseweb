@@ -1,0 +1,30 @@
+{
+    "name": "rmagnoprado/baseweb",
+    "description": "Basico para desenvolvimento Web",
+    "type": "library",
+    "require": {
+        "rmagnoprado/debug": "dev-master",
+        "twbs/bootstrap": "dev-main"
+    },
+    "require-dev": {
+        "rmagnoprado/debug": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rmagnoprado\\Baseweb\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robson Magno",
+            "email": "rmagnoprado@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
